@@ -33,7 +33,7 @@ public class Voto {
 		this.data = data;
 	}
 	public String toString() {
-		return nome+" "+voto+" "+data;
+		return "Esame di '"+nome+"' superato con "+voto+" in data "+data;
 	}
 	
 }
